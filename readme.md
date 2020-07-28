@@ -17,6 +17,8 @@ Ferramenta para criar nossos algoritmos e validarmos conceitos:
  - [Visual Studio Code](https://code.visualstudio.com/)
  - [Node](https://nodejs.org/en/)
 
+Ferramenta de comunicação da disciplina, tirar dúvidas e etc:
+ - [Discord](https://discord.gg/74KapY)
 
 ## Calendário das Aulas
 

@@ -1,20 +1,26 @@
 1. Qual o tipo de dado no JavaScript para textos?
 
-a. Text
-b. bigText
-c. string
+  [ ] Text
+
+  [ ] bigText
+
+  [ ] string
 
 Qual o tipo de dado no JavaScript para números?
 
-a. int
-b. number
-c. integer
+  [ ] int
+
+  [ ] number
+
+  [ ] integer
 
 3. Um dado true, faz parte de qual tipo de dados em JavaScript?
 
-a. positive
-b. boolean
-c. choice
+[ ] positive
+
+[ ] boolean
+
+[ ] choice
 
 4. Quais são os formatos possivéis aceitos para valores do tipo `String`? 
 Dê exemplos usando o `console.log`;
