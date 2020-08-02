@@ -7,6 +7,7 @@ PERÍODO LETIVO: 2020-2
 DISCIPLINA: Programação Web I
 CARGA HORÁRIA: 80h
 Conteúdo: JavaScript, API, DOM, BOM, CSS-Grid, Transitions e Animations
+Instrutor: [Cristofer Sousa](http://github.com/cristofersousa/)
 ```
 
 ## Referência Bibliográfica e Especificação sobre linguagem
