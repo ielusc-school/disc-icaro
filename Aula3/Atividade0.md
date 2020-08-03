@@ -12,7 +12,7 @@
 
 /*
 Crie uma função que adicione um valor à variável criada acima, e retorne a string:
-    O valor da variável agora é VALOR.
+O valor da variável agora é VALOR.
 Onde VALOR é o novo valor da variável.
 */
 ?
@@ -57,3 +57,37 @@ Crie uma função com as seguintes características:
 
 // Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
 ?
+
+// Crie uma função que valide se o número informado é par ou ímpar, além disso precisa validar se o 
+número informado é do tipo `number`, para satisfazer as condições:
+ - Validar se foi inserida um dado
+ - Validar se foi inserido um número
+ - Validar se o número é ímpar ou par
+
+ ```js
+  function isValid(numero) {
+    if(!numero && typeof(numero) !== 'number') {
+      return console.log('Não foi informado nenhum número, tente novamente!');
+    } else if (typeof(numero) !== 'number') {
+      return console.log('Não foi informado um dado do tipo número!');
+    } else if(numero % 2 === 0) {
+      let result = 2;
+      return console.log(`O número é par ${numero}`);
+    } else if(numero % 2 === 1) {
+      let result = numero % 2;
+     return console.log(`O número é impar ${numero}`);
+    }
+  }
+
+
+isValid();
+isValid(10);
+isValid(21);
+isValid('cachorro')
+
+isValid(10);
+isValid(3);
+isValid();
+isValid('zebra');
+
+ ```
