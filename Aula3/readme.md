@@ -2,8 +2,8 @@
 
 - Variáveis
 - Estrutura de Controle
-- Repetições
 - Funções
+- Repetições (ver na aula 4)
 
 
 ## O que é um programa/software?
