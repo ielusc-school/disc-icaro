@@ -44,6 +44,28 @@ Crie uma função com as seguintes características:
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
 ?
 
+// Declarar uma variável chamada `myvar`, sem valor.
+
+// Após declarada, atribua o valor 10 à variável `myvar`.
+
+// Declare uma nova variável chamada `soma`, e adicione uma instrução somando os valores 15 e 8.
+
+// Atribua à variável `soma` todo o valor dela, somando 1, usando o operador de soma abreviado.
+
+// Atribua à variável `soma` todo o valor dela, multiplicando por 3, usando o operador de multiplicação abreviado.
+
+// Qual é o valor da variável `soma` até aqui?
+
+// Declare uma variável chamada `souninja`, atribuindo à ela o valor booleano que representa `verdadeiro`.
+
+// Digite o código que verifica se a variável `soma' é igual a variável `myvar` (testando também o tipo).
+
+// Digite o código que verifica se a variável `myvar` é menor ou igual à variável `soma`.
+
+// Crie uma função chamada `divisao` que receba como parâmetro dois números, e retorne o resultado da divisão entre eles.
+
+// Invoque a função criada acima, passando os parâmetros 10 e 2.
+
 /*
 Crie uma função com as seguintes características:
 1. A função deve receber 3 argumentos.
@@ -58,36 +80,11 @@ Crie uma função com as seguintes características:
 // Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
 ?
 
-// Crie uma função que valide se o número informado é par ou ímpar, além disso precisa validar se o 
+/* Crie uma função que valide se o número informado é par ou ímpar, além disso precisa validar se o 
 número informado é do tipo `number`, para satisfazer as condições:
  - Validar se foi inserida um dado
  - Validar se foi inserido um número
  - Validar se o número é ímpar ou par
+ - Exiba as mensagens para cada caso informado acima.
+ */
 
- ```js
-  function isValid(numero) {
-    if(!numero && typeof(numero) !== 'number') {
-      return console.log('Não foi informado nenhum número, tente novamente!');
-    } else if (typeof(numero) !== 'number') {
-      return console.log('Não foi informado um dado do tipo número!');
-    } else if(numero % 2 === 0) {
-      let result = 2;
-      return console.log(`O número é par ${numero}`);
-    } else if(numero % 2 === 1) {
-      let result = numero % 2;
-     return console.log(`O número é impar ${numero}`);
-    }
-  }
-
-
-isValid();
-isValid(10);
-isValid(21);
-isValid('cachorro')
-
-isValid(10);
-isValid(3);
-isValid();
-isValid('zebra');
-
- ```
