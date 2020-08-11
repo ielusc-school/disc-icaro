@@ -32,5 +32,10 @@ Instrutor: [Cristofer Sousa](http://github.com/cristofersousa/)
 |---         |---                                                     |---     |
 |  Aula 01   | Apresentação da Disciplina                             | Done   |
 |  Aula 02   | Tipo de Dados: Boolean, String, Number, NAN, Undefined | Done   |
-|  Aula 03   | Condicionais, Functions, Repetições, Switch e Objetos  | WIP    |
-|  Aula 04   | Arrays, Arrow Functions, Promisses, Async/Await        | WIP    |
+|  Aula 03   | Condicionais e Functions                               | Done   |
+|  Aula 04   | Objects e Arrays                                       | To DO  |
+|  Aula 05   | Arrays, Repetição e DOM                                | WIP    |
+|  Aula 06   | Arrow Functions, Promisses, Async/Await                | WIP    |
+|  Aula 07   | Arrow Functions, Promisses, Async/Await                | WIP    |
+
+
