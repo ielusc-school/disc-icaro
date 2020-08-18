@@ -28,14 +28,20 @@ Instrutor: [Cristofer Sousa](http://github.com/cristofersousa/)
 
 ## Calendário das Aulas
 
-|  Aula      |  Resumo                                                | Status | 
-|---         |---                                                     |---     |
-|  Aula 01   | Apresentação da Disciplina                             | Done   |
-|  Aula 02   | Tipo de Dados: Boolean, String, Number, NAN, Undefined | Done   |
-|  Aula 03   | Condicionais e Functions                               | Done   |
-|  Aula 04   | Objects                                                | Done   |
-|  Aula 05   | Arrays & Repetição                                     | To Do  |
-|  Aula 06   | Arrow Functions, Promisses, Async/Await                | WIP    |
-|  Aula 07   | Arrow Functions, Promisses, Async/Await                | WIP    |
+|  Data    |  Aula      |  Resumo                                                | Status | 
+|---       |---         | ---                                                    | ----   |
+|  27/07   |  Aula 01   | Apresentação da Disciplina                             | Done   |
+|  03/08   |  Aula 02   | Tipo de Dados: Boolean, String, Number, NAN, Undefined | Done   |
+|  10/08   |  Aula 03   | Condicionais e Functions                               | Done   |
+|  17/08   |  Aula 04   | Objects                                                | Done   |
+|  24/08   |  Aula 05   | Arrays & Repetição                                     | Done   |
+|  31/08   |  Aula 06   | Perfis Front-end, DOM, Eventos, Debug                  | WIP    |
+|  07/09   |   ###      | Feriado - Dia da Independência                         | ##     |
+|  14/09   |  Aula 07   | FetchAPI, AJAX, Arrow Functions, Promisses             | WIP    |
+|  21/09   |  Aula 08   | Semana Acadêmica                                       | WIP    |
+|  28/09   |  Aula 09   | Projeto 1 - Desenvolvimento WebApp                     | WIP    |
+|  ---     |  --        | Término do 1º Bimestre                                 | ---    |
+|  05/10   |  Aula 10   | Arrays - Reduce, Find, Some, Every, Map, Filter        | WIP    |
+
 
 
