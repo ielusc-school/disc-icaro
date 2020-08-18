@@ -34,7 +34,7 @@ Instrutor: [Cristofer Sousa](http://github.com/cristofersousa/)
 |  03/08   |  Aula 02   | Tipo de Dados: Boolean, String, Number, NAN, Undefined | Done   |
 |  10/08   |  Aula 03   | Condicionais e Functions                               | Done   |
 |  17/08   |  Aula 04   | Objects                                                | Done   |
-|  24/08   |  Aula 05   | Arrays & Repetição                                     | Done   |
+|  24/08   |  Aula 05   | Arrays & Loops                                         | Done   |
 |  31/08   |  Aula 06   | Perfis Front-end, DOM, Eventos, Debug                  | WIP    |
 |  07/09   |   ###      | Feriado - Dia da Independência                         | ##     |
 |  14/09   |  Aula 07   | FetchAPI, AJAX, Arrow Functions, Promisses             | WIP    |
