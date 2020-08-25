@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <h1>Lista de Tarefas</h1>
+  <input type="text" id="taskId" placeholder="Insira a tarefa"> 
+  <button onclick="addTask()">Adicionar</button>
+
+  <ul>
+    <li class="list-item"> Lista 1</li>
+    <li class="list-item"> Lista 2</li>
+    <li class="list-item"> Lista 3</li>
+  </ul>
+
+<script>
+
+  function addTask() {
+    // pega o elemento digitado
+    let textTask = document.querySelector('#taskId').value;
+    console.log(textTask);
+
+    // pega o item da lista
+    let getLista = document.querySelector('ul');
+    console.log(getLista);
+
+    let item = document.querySelector('li');
+    item.innerText = textTask;
+
+    document.querySelector('ul').appendChild(item);
+
+    // getLista.appendChild(newElement);
+  };
+
+
+</script>
+  
+</body>
+</html>

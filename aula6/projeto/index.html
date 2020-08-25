@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+</head>
+<body>
+  <h1>Olá mundo</h1>
+  
+<script>
+
+  const getTitle = document.querySelector('h1');
+
+  function getUrl() {
+    const URL = 'http://127.0.0.1:5500/aula6/projeto/index.html';
+    if(window.location.href === URL) {
+      console.log('Estamos dentro!')
+    } else {
+      console.log('não é URL....')
+    }
+  }
+
+  getUrl();
+</script>
+</body>
+</html>

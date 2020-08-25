@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <h1>Lista de Tarefas</h1>
+  <input type="text" id="taskId" placeholder="Insira a tarefa"> 
+  <button>Adicionar</button>
+
+  <ul></ul>
+
+<script>
+    const list = ['leite','chocolate', 'lasanha'];
+    const listElement = document.querySelector('ul');
+    list.push('macarrão');
+    list.push('molho');
+    list.push('mussarela');
+
+
+
+    function renderHTML() {
+      let elemento = '';
+      for (let item of list) {
+        elemento += `<li>  ${item} </li>`
+      }
+      listElement.innerHTML = elemento;
+    }
+    renderHTML();
+
+
+</script>
+  
+</body>
+</html>

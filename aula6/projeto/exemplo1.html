@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo 1</title>
+  <style>
+    h1 {
+      color: black;
+      text-transform: uppercase;
+      background: yellow;
+    }
+  </style>
+</head>
+<body>
+ <h1> Lista de Compras</h1>
+
+ <section id="frutas">Lista de Frutas 
+  <ul class="listaFrutas">
+   <li> Banana</li>
+   <li> Maça</li>
+   <li> Abacate</li>
+ </ul>
+</section>
+
+
+ <section id="cereais">
+   <h3>Lista de Cereais</h3>
+  <ul class="listaCereais">
+    <li> Arroz</li>
+    <li> Feijão</li>
+    <li> Aveia</li>
+  </ul>
+</section>
+
+
+ <script> // javascript
+
+//pegar elemento html
+ const sectionFrutas = document.querySelector('section');
+ console.log(sectionFrutas);
+ // sectionFrutas.innerText = 'Lista de Abacaxis';
+ // sectionFrutas.innerHTML('<strong> Lista de Coisas á compras </strong>');
+ // sectionFrutas.innerHTML('<li> Esse aqui é meu paragrafo </li>');
+
+ //pegar elemento .class
+ const listaFrutas = document.querySelector('.listaFrutas');
+
+ //pegar elemento por id
+ const sectionCereais = document.querySelector('#cereais');
+ sectionCereais.style.backgroundColor = 'black';
+ sectionCereais.style.color = 'white';
+ </script>
+</body>
+</html>

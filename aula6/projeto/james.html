@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo 1</title>
+  <style>
+    h1 {
+      color: black;
+      text-transform: uppercase;
+      background: yellow;
+    }
+  </style>
+</head>
+<body>
+ <h1> Lista de Amigos</h1>
+
+ <section id="frutas">Lista de Amigos 
+ <ul class="listaAmigos">
+   <li>1. Carlos</li>
+   <li>2. Gabriel</li>
+   <li>3. Thiago</li>
+ </ul>
+</section>
+<script> // javascript
+ const lista = document.querySelector('.listaAmigos');
+
+ const item1 = lista.querySelectorAll('li')[0];
+ const item2 = lista.querySelectorAll('li')[1];
+ const item3 = lista.querySelectorAll('li')[2];
+
+ item1.style.color = 'blue';
+ item2.style.color = 'red';
+ item3.style.color = 'green';
+ item3.textContent = '3. Bianca';
+
+</script>
+</body>
+</html>
