@@ -53,16 +53,17 @@ Instrutor: [Cristofer Sousa](http://github.com/cristofersousa/)
 
 |  Data    |  Aula      |  Resumo                                                | Status | 
 |---       |---         | ---                                                    | ----   |
-|  27/07   |  Aula 01   | Apresentação da Disciplina                             | Done   |
-|  03/08   |  Aula 02   | Tipo de Dados: Boolean, String, Number, NAN, Undefined | Done   |
-|  10/08   |  Aula 03   | Condicionais e Functions                               | Done   |
-|  17/08   |  Aula 04   | Objects                                                | Done   |
-|  24/08   |  Aula 05   | Arrays & Loops                                         | Done   |
-|  31/08   |  Aula 06   | Perfis Front-end, DOM, Eventos, Debug                  | WIP    |
+|  20/07   |  Aula 01   | Apresentação da Disciplina                             | Done   |
+|  27/07   |  Aula 02   | Tipo de Dados: Boolean, String, Number, NAN, Undefined | Done   |
+|  03/08   |  Aula 03   | Condicionais e Functions                               | Done   |
+|  10/08   |  Aula 04   | Objects                                                | Done   |
+|  17/08   |  Aula 05   | Arrays & Loops                                         | Done   |
+|  24/08   |  Aula 06   | Perfis Front-end & DOM                                 | Done   |
+|  31/08   |  Aula 07   | DOM, Formulários, Rede, Extensão e Eventos             | WIP    |
 |  07/09   |   ###      | Feriado - Dia da Independência                         | ##     |
-|  14/09   |  Aula 07   | FetchAPI, AJAX, Arrow Functions, Promisses             | To Do  |
-|  21/09   |  Aula 08   | Semana Acadêmica                                       | To Do  |
-|  28/09   |  Aula 09   | Projeto 1 - Desenvolvimento WebApp                     | To Do  |
+|  14/09   |  Aula 08   | FetchAPI, AJAX, Arrow Functions, Promisses             | To Do  |
+|  21/09   |  Aula 09   | Semana Acadêmica                                       | To Do  |
+|  28/09   |  Aula 10   | Projeto 1 - Desenvolvimento WebApp                     | To Do  |
 |  ---     |  --        | Término do 1º Bimestre                                 | ---    |
 |  05/10   |  Aula 10   | Arrays - Reduce, Find, Some, Every, Map, Filter        | To Do  |
 
