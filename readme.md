@@ -59,9 +59,9 @@ Instrutor: [Cristofer Sousa](http://github.com/cristofersousa/)
 |  10/08   |  Aula 04   | Objects                                                | Done   |
 |  17/08   |  Aula 05   | Arrays & Loops                                         | Done   |
 |  24/08   |  Aula 06   | Perfis Front-end & DOM                                 | Done   |
-|  31/08   |  Aula 07   | DOM, Formulários, Rede, Extensão e Eventos             | WIP    |
+|  31/08   |  Aula 07   | DOM, Rede, Extensão e Eventos                          | Done   |
 |  07/09   |   ###      | Feriado - Dia da Independência                         | ##     |
-|  14/09   |  Aula 08   | FetchAPI, AJAX, Arrow Functions, Promisses             | To Do  |
+|  14/09   |  Aula 08   | Formulários, Eventos,  FetchAPI, AJAX, Promisses       | To Do  |
 |  21/09   |  Aula 09   | Semana Acadêmica                                       | To Do  |
 |  28/09   |  Aula 10   | Projeto 1 - Desenvolvimento WebApp                     | To Do  |
 |  ---     |  --        | Término do 1º Bimestre                                 | ---    |
