@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+      button {
+        background: green;
+        color: #fff;
+        width: 200px;
+        height: 90px;
+      }
+
+      .btn-class {
+        background: red;
+        color: #fff;
+        width: 200px;
+        height: 90px;
+      }
+
+      #addButton {
+        background-color: blueviolet;
+        color: #fff;
+        width: 200px;
+        height: 90px;
+      }
+  </style>
+</head>
+<body>
+  <button>Meu botão 1</button>
+  <button class="btn-class">Meu botão 2</button>
+  <button id="addButton">Meu botão 3</button>
+
+  
+  <script>
+    let myButton = document.getElementsByTagName('button');
+    console.log(myButton);
+
+    let myButton2 = document.getElementsByClassName('btn-class');
+    console.log(myButton2);
+
+    let myButton3 = document.getElementById('addButton');
+    console.log('log', myButton3);
+
+    let button = document.querySelector('.btn-class');
+    console.log('.classe', button);
+
+    let button2 = document.querySelector('#addButton');
+    console.log('#id', button2);
+
+    console.log('pegar segundo botão', myButton[1].textContent)
+
+  </script>
+  
+</body>
+</html>
