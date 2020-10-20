@@ -8,8 +8,6 @@ let meuElemento = documento.getElementsByTagName('button');
 // buscar elemento por classe
 // buscar elemento por id
 // buscar elementos de forma independente
-
-
 ```
 
 > Resumo
@@ -100,7 +98,7 @@ do front-end é direcionar para que o caminho do usuário seja "feliz".
  ```js
  let button = document.querySelector('#button-primary');
 
- button.addeventListener('click', function() {
+ button.addEventListener('click', function() {
    console.log('clicou no botão');
  })
  ```
@@ -214,8 +212,10 @@ window.addEventListener('keydown', function(e) {
 
 ## Eventos de Mouse
 
-Assim como vimos que conseguimos monitorar os eventos do teclado com keydown e keyup, podemos fazer o mesmo para o mouse. No caso nos temos dois eventos que seria o `mousedown e
-o mouseup`. Se quiser monitorar o clique duplo, temos tamvém o `Dblclick`. 
+Assim como vimos que conseguimos monitorar os eventos do teclado 
+com keydown e keyup, podemos fazer o mesmo para o mouse. 
+No caso nos temos dois eventos que seria o `mousedown e o mouseup`. 
+Se quiser monitorar o clique duplo, temos tamvém o `Dblclick`. 
 
 
 ```js

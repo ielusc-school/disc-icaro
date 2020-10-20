@@ -61,16 +61,21 @@ Instrutor: [Cristofer Sousa](http://github.com/cristofersousa/)
 |  24/08   |  Aula 06   | Perfis Front-end & DOM                                 | Done   |
 |  31/08   |  Aula 07   | DOM, Rede, Extensão e Eventos                          | Done   |
 |  07/09   |   ###      | Feriado - Dia da Independência                         | ##     |
-|  14/09   |  Aula 08   | Formulários e Eventos                                  | WIP    |
-|  21/09   |  Aula 09   | Semana Acadêmica                                       | To Do  |
-|  28/09   |  Aula 10   | Projeto 1 - Desenvolvimento WebApp                     | To Do  |
+|  14/09   |  Aula 08   | Formulários e Eventos                                  | Done   |
+|  21/09   |  Aula 09   | Semana Acadêmica                                       | Done   |
+|  28/09   |  Aula 10   | Projeto 1 - Desenvolvimento WebApp                     | Done   |
 |  ---     |  --        | Término do 1º Bimestre                                 | ---    |
-|  05/10   |  Aula 11   | Arrays - Reduce, Find, Some, Every, Map, Filter        | To Do  |
+|  05/10   |  Aula 11   | Revisão da Prova e Projeto Ong                         | Done   |
 |  12/10   |  --        | Feriado - Dia da Nossa Senhora da Aparecida            | ---    |
-|  19/10   |  Aula 12   | LocalStorage, SessionStorage, couchDatabase            | To Do  |
-|  26/10   |  Aula 13   | FetchAPI, AJAX, Promisses                              | To Do  |
-
-
+|  19/10   |  Aula 12   | DOM e Eventos                                          | WiP    |
+|  26/10   |  Aula 13   | Arrays - Reduce, Find, Some, Every, Map                | To Do  |
+|  26/10   |  Aula 14   | Cookies, LocalStorage, SessionStorage,                 | To Do  |
+|  26/10   |  Aula 15   | FetchAPI, AJAX, Promisses                              | To Do  |
+|  26/10   |  Aula 16   | CSS Grid e Css Animate                                 | To Do  |
+|  26/10   |  Aula 17   | Ong - Extensão da Curricularização                     | To Do  |
+|  26/10   |  Aula 18   | Avaliação                                              | To Do  |
+|  26/10   |  Aula 19   | REC                                                    | To Do  |
+|  26/10   |  Aula 20   | REC                                                    | To Do  |
 
 
 

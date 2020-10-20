@@ -4,27 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Formulários</title>
+  <style>
+    body{ background-color: black; height: 100vh; color: #fff; padding: 20px; }
+
+  </style>
 </head>
 <body style="margin: 0;">
-  <section style="background-color: black; height: 100vh; color: #fff; padding: 20px">
+  <section>
     <h1>Formulários</h1>
     <form>
+      <h2>Dados pessoais</h2>
       <label for="">Nome</label>
       <input 
         type="text" 
         placeholder="Insira seu nome"
         required> <br> <br>
 
+        <label for="">Telefone:</label>
+        <input 
+          type="tel" 
+          placeholder=""
+          required> <br> <br>
+
       <label for="">Data de Nascimento</label>
       <input type="date" required> <br> <br>
-
-      <label for="">CEP</label>
-      <input 
-        type="text" 
-        placeholder="99999-999"
-        minlength="9"
-        maxlength="9"
-        pattern="\d{5}-?\d{3}">
 
       <label for="">CNPJ/CPF</label>
       <input 
@@ -48,7 +51,78 @@
         type="email" 
         placeholder="teste@teste.com" 
         required> <br> <br>
+      <hr>
+      <h2>Endereço</h2>
+      <label for="">CEP</label>
+      <input 
+        type="text" 
+        placeholder="99999-999"
+        minlength="9"
+        maxlength="9"
+        pattern="\d{5}-?\d{3}">
 
+      <label for="">Rua</label>
+      <input 
+        type="text" 
+        placeholder=""
+        minlength="9"
+        maxlength="9"
+        pattern="\d{5}-?\d{3}">  <br><br>
+
+      <label for="">Número</label>
+      <input 
+        type="number" 
+        placeholder=""
+        minlength="9"
+        maxlength="9"
+        pattern="\d{5}-?\d{3}">
+
+        <label for="">Bairro</label>
+        <input 
+          type="text" 
+          placeholder=""
+          minlength="9"
+          maxlength="9"
+          pattern="\d{5}-?\d{3}">  <br><br>
+
+          <label for="">Cidade</label>
+          <input 
+            type="text" 
+            placeholder=""
+            minlength="9"
+            maxlength="9">
+
+        <label for="">Estado</label>:</label>
+        <select name="select" id=""> 
+          <option value="" disabled>Selecione</option>
+          <option value="joi">SC </option>
+          <option value="cps">SP </option>
+          <option value="val">RJ </option>
+          <option value="flr">MG </option>
+          <option value="sj">RS</option>
+        </select>
+      <hr>
+      <h2>Social Media</h2>
+
+      <label for="">Site/Blog:</label>
+      <input 
+        type="url" 
+        placeholder="https://"
+        required> <br> <br>
+
+      <label for="">Twitter:</label>
+      <input 
+        type="url" 
+        placeholder="https://"
+        required> <br> <br>
+
+      <label for="">Facebook:</label>
+      <input 
+        type="url" 
+        placeholder="https://"
+        required> <br> <br>  
+
+      <h2>Interesses:</h2>
       <label for="">Selecione a fruta:</label> <br> 
       <input type="checkbox" name="" id="">Maça 
       <input type="checkbox" name="" id="">Pera 
@@ -56,6 +130,7 @@
       <input type="checkbox" name="" id="">Jaca 
       <br><br>
 
+      <h2>Credenciais</h2>
       <label for="">Senha</label>
       <input 
         type="password" 
@@ -70,16 +145,6 @@
         id="retypePassword"
         minlength="6"
         maxlength="12"> <br><br>
-
-      <label for="">Selecione sua cidade:</label>
-      <select name="select" id=""> 
-        <option value="" disabled>Selecione</option>
-        <option value="joi">Joinville - SC </option>
-        <option value="cps">Campinas - SP </option>
-        <option value="val">Valinhos - SP </option>
-        <option value="flr">Floripa - SC </option>
-        <option value="sj">São José - SC </option>
-      </select>
 
       <br><br>
       <label for="">Insira sua mensagem</label> <br>
