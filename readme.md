@@ -67,10 +67,10 @@ Instrutor: [Cristofer Sousa](http://github.com/cristofersousa/)
 |  ---     |  --        | Término do 1º Bimestre                                 | ---    |
 |  05/10   |  Aula 11   | Revisão da Prova e Projeto Ong                         | Done   |
 |  12/10   |  --        | Feriado - Dia da Nossa Senhora da Aparecida            | ---    |
-|  19/10   |  Aula 12   | DOM e Eventos                                          | WiP    |
-|  26/10   |  Aula 13   | Arrays - Reduce, Find, Some, Every, Map                | To Do  |
-|  26/10   |  Aula 14   | Cookies, LocalStorage, SessionStorage,                 | To Do  |
-|  26/10   |  Aula 15   | FetchAPI, AJAX, Promisses                              | To Do  |
+|  19/10   |  Aula 12   | DOM e Eventos                                          | Done    |
+|  26/10   |  Aula 13   | Extensão, Framework e JSON                             | WIP    |
+|  26/10   |  Aula 14   | Reduce, Find, Filter, Every, Map, Cookies, LocalStorage| To Do  |
+|  26/10   |  Aula 15   | FetchAPI, AJAX, Promisses, Arrow Function              | To Do  |
 |  26/10   |  Aula 16   | CSS Grid e Css Animate                                 | To Do  |
 |  26/10   |  Aula 17   | Ong - Extensão da Curricularização                     | To Do  |
 |  26/10   |  Aula 18   | Avaliação                                              | To Do  |

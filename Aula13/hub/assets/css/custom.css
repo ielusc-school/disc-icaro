@@ -1,0 +1,7 @@
+.btn-filterPerson {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  top: -9px;
+}

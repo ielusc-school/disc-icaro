@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assets/css/custom.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light mb-5 ">
+      <a class="navbar-brand">
+        <img 
+        src="./assets/img/playstore.png" 
+        alt="" 
+        class="img-responsive"
+        width="40%">
+        </a>
+      </a>
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="./pages/perfil.html" tabindex="-1" aria-disabled="true">
+            <img 
+              src="./assets/img/woman.jpeg" 
+              class="rounded-circle float-right" 
+              alt="avatar"
+              width="10%">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <section class="bg-pessoa">
+      <div class="row">
+        <div class="col-6">
+          <form>
+            <div class="form-group">
+              <label for="name">Filtrar por nome:</label>
+              <input type="text" class="form-control" id="name" aria-describedby="nameHelp">
+              <small id="nameHelp" class="form-text text-muted">Você pode pesquisar por nome de pessoas</small>
+            </div>
+      
+          </form>
+        </div>
+        <div class="col-2 btn-filterPerson ">
+          <label for="name"></label>
+          <button type="submit" class="btn btn-primary">Pesquisar</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-8">
+           <table class="table table-bordered table-hover">
+             <thead> 
+               <tr>
+                  <th>Nome</th>
+                  <th>Idade</th>
+                  <th>Altura</th>
+                  <th>Peso</th>
+                  <th>Ações</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td> João da Silva</td>
+                 <td>30</td>
+                 <td>1.80(m)</td>
+                 <td>100kg</td>
+                 <td>
+                  <button class="btn btn-warning">Editar</button>
+                  <button class="btn btn-danger">Remover</button>
+                </td> 
+               </tr>
+               <tr>
+                <td> João da Silva</td>
+                <td>30</td>
+                <td>1.80(m)</td>
+                <td>100kg</td>
+                <td>
+                  <button class="btn btn-warning">Editar</button>
+                  <button class="btn btn-danger">Remover</button>
+                </td> 
+              </tr>
+              <tr>
+                <td> João da Silva</td>
+                <td>30</td>
+                <td>1.80(m)</td>
+                <td>100kg</td>
+                <td>
+                  <button class="btn btn-warning">Editar</button>
+                  <button class="btn btn-danger">Remover</button>
+                </td> 
+              </tr>
+              <tr>
+                <td> João da Silva</td>
+                <td>30</td>
+                <td>1.80(m)</td>
+                <td>100kg</td>
+                <td>
+                  <button class="btn btn-warning">Editar</button>
+                  <button class="btn btn-danger">Remover</button>
+                </td> 
+              </tr>
+              <tr>
+                <td>Maria dos Santos</td>
+                <td>20</td>
+                <td>1.60(m)</td>
+                <td>66kg</td>
+                <td>
+                  <button 
+                    class="btn btn-warning"
+                    data-toggle="modal" 
+                    data-target="#editPessoa"
+                    data-toggle="tooltip" 
+                    data-placement="top" 
+                    title="Desejo edtiar, agora mesmo!">Editar
+                  </button>
+                  <button 
+                    class="btn btn-danger"
+                    data-toggle="modal" 
+                    data-target="#removePessoa">Remover
+                  </button>
+                </td> 
+              </tr>
+            </tbody>
+           </table>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="modal fade" 
+      id="editPessoa" 
+      tabindex="-1" 
+      aria-labelledby="exampleModalLabel" 
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Editar</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            <button type="button" class="btn btn-primary">Salvar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" 
+    id="removePessoa" 
+    tabindex="-1" 
+    aria-labelledby="exampleModalLabel" 
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Remover</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Você deseja realmente, excluir essa pessoa?
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Não, cancele.</button>
+          <button type="button" class="btn btn-primary">Sim, desejo!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+    <!-- <section>
+      <div class="row">
+        <div class="col-8">Entre em Contato</div>
+        <div class="col-4"> App Lecto</div>
+      </div>
+        <div class="row">
+          <div class="col-4">
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+          </div>
+          <div class="col">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+            <!-- <form class="form-inline my-2 my-lg-0"></form> -->
+          <!-- </div>
+        </div> -->
+  
+    <!-- </section>  -->
+
+  </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script 
+      src="./assets/js/jquery-3.5.1.slim.min.js" 
+      crossorigin="anonymous"></script>
+    <script 
+      src="./assets/js/bootstrap4.5.6.min.js" 
+      crossorigin="anonymous">
+    </script>
+  </body>
+</html>
