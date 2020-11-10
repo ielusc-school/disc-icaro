@@ -68,14 +68,14 @@ Instrutor: [Cristofer Sousa](http://github.com/cristofersousa/)
 |  05/10   |  Aula 11   | Revisão da Prova e Projeto Ong                         | Done   |
 |  12/10   |  --        | Feriado - Dia da Nossa Senhora da Aparecida            | ---    |
 |  19/10   |  Aula 12   | DOM e Eventos                                          | Done    |
-|  26/10   |  Aula 13   | Extensão, Framework e JSON                             | WIP    |
-|  26/10   |  Aula 14   | Reduce, Find, Filter, Every, Map, Cookies, LocalStorage| To Do  |
-|  26/10   |  Aula 15   | FetchAPI, AJAX, Promisses, Arrow Function              | To Do  |
-|  26/10   |  Aula 16   | CSS Grid e Css Animate                                 | To Do  |
-|  26/10   |  Aula 17   | Ong - Extensão da Curricularização                     | To Do  |
-|  26/10   |  Aula 18   | Avaliação                                              | To Do  |
-|  26/10   |  Aula 19   | REC                                                    | To Do  |
-|  26/10   |  Aula 20   | REC                                                    | To Do  |
+|  26/10   |  Aula 13   | Extensão, Framework                                    | DONE    |
+|  02/11   |  ---       | Reduce, Find, Filter, Every, Map,                      | To Do  |
+|  09/11   |  Aula 14   | FetchAPI, AJAX, Promisses, Arrow Function              | To Do  |
+|  16/11   |  Aula 15   | CSS Grid e Css Animate                                 | To Do  |
+|  23/11   |  Aula 16   | Apresentação do Seminário | Ong                        | To Do  |
+|  30/11   |  Aula 17   | Avaliação                                              | To Do  |
+|  07/11   |  Aula 18   | REC                                                    | To Do  |
+|  14/11   |  Aula 19   | REC                                                    | To Do  |
 
 
 
