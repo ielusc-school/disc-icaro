@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+  <header class="heading">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">
+            PostalApp | Alunos
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <section class="jumbotron heading">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+         <h1>Postal App</h1>
+         <em>Sua mercadoria mais perto de você...</em>
+         </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Adicionar Aluno</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis hic sapiente, aliquam ipsam voluptate dolor ad repellat repudiandae ipsum omnis natus, non amet. Quisquam aliquam in illum, earum quod provident.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <form id="js-form">
+          <h4>Dados Gerais:</h4>
+          <div class="form-group col-md-6">
+            <label for="name">Nome:</label>
+            <input 
+              type="text" 
+              class="form-control" 
+              name="name" 
+              id="js-name" 
+              placeholder="Joe Doe">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="email">E-mail</label>
+            <input 
+              type="text" 
+              class="form-control" 
+              name="email"
+              id="js-email"
+              placeholder="joe@doe.com">
+          </div>
+
+          <div class="form-group col-md-6">
+            <label for="password">Senha:</label>
+            <input 
+              type="password" 
+              class="form-control" 
+              name="password" 
+              id="js-password" 
+              placeholder="insira o nome completo...">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="password">Confirmar Senha:</label>
+            <input 
+              type="password" 
+              class="form-control" 
+              name="password"
+              id="js-retTypePassword"
+              placeholder="*******">
+          </div>
+
+          <h4>Endereço:</h4>
+          <div class="form-group col-md-3">
+            <label for="zipcode">Cep:</label>
+            <input 
+              type="text" 
+              class="form-control" 
+              name="zipcode" 
+              id="js-zipcode" 
+              placeholder="99999-999">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="street">Rua</label>
+            <input 
+              type="text" 
+              class="form-control" 
+              name="street"
+              id="js-street"
+              placeholder="rua xurupita">
+          </div>
+          <div class="form-group col-md-3">
+            <label for="number">Número</label>
+            <input 
+              type="text" 
+              class="form-control" 
+              name="number" 
+              id="js-number" 
+              placeholder="99">
+          </div>
+
+          
+          <div class="form-group col-md-3">
+            <label for="neighborhood">Bairro</label>
+            <input 
+              type="text" 
+              class="form-control" 
+              name="neighborhood" 
+              id="js-neighborhood" 
+              placeholder="Travessa Xpto">
+          </div>
+
+          <div class="form-group col-md-3">
+            <label for="complement">Complemento</label>
+            <input 
+              type="text" 
+              class="form-control" 
+              name="complement" 
+              id="js-complement" 
+              placeholder="padaria napolitano">
+          </div>
+
+          <div class="form-group col-md-3">
+            <label for="city">Cidade:</label>
+            <input 
+              type="text" 
+              class="form-control" 
+              name="city" 
+              id="js-city" 
+              placeholder="Santana">
+          </div>
+          <div class="form-group col-md-3">
+            <label for="state">Estado</label>
+            <input 
+              type="text" 
+              class="form-control" 
+              name="state"
+              id="js-state"
+              placeholder="RJ - Rio De Janeiro">
+          </div>
+
+          <div class="col-md-12">
+            <button 
+              type="submit" 
+              class="btn btn-primary">
+              Adicionar
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+  <section class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Alunos</h2>
+      </div>
+        <div class="col-md-8">
+          <input 
+            type="text" 
+            id=""
+            placeholder="Insira nome" 
+            class="form-control" 
+            pattern="\d{5}-?\d{3}" 
+            maxlength="9">
+        </div>
+        <div class="col-md-4">
+          <button 
+            class="btn btn-primary"
+            id="buttonPesquisa">Buscar agora</button>
+        </div>
+    </div>
+  
+    <div class="col-md-12">
+      <table class="table table-hover table-striped">
+        <thead>
+          <tr>
+          <th>#</th>
+          <th>Nome</th>
+          <th>Rua</th>
+          <th>Bairro</th>
+          <th>Complemento</th>
+          <th>Cidade</th>
+          <th>Estado</th>
+          <th>Cep</th>
+          <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>#</th>
+            <th>Alexandre Salvador</th>
+            <th>Rua Guia Martins</th>
+            <th>Vila Nova</th>
+            <th>---</th>
+            <th>Joinville</th>
+            <th>SC</th>
+            <th>89218-918</th>
+            <th>
+              <button class="btn btn-warning">Editar</button>
+              <button class="btn btn-danger">Remover</button>
+            </th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>

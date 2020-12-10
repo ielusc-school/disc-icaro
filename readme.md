@@ -73,9 +73,9 @@ Instrutor: [Cristofer Sousa](http://github.com/cristofersousa/)
 |  09/11   |  Aula 14   | FetchAPI, AJAX, Promisses, Arrow Function              | To Do  |
 |  16/11   |  Aula 15   | CSS Grid e Css Animate                                 | To Do  |
 |  23/11   |  Aula 16   | Apresentação do Seminário | Ong                        | To Do  |
-|  30/11   |  Aula 17   | Avaliação                                              | To Do  |
+|  30/11   |  Aula 17   | Seminário                                              | To Do  |
 |  07/11   |  Aula 18   | REC                                                    | To Do  |
-|  14/11   |  Aula 19   | REC                                                    | To Do  |
+|  12/12   |  Aula 19   | REC                                                    | To Do  |
 
 
 

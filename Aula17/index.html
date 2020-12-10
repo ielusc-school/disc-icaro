@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link 
+    rel="stylesheet" 
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+<header class="heading">
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+          PostalApp
+        </a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<section class="jumbotron heading">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+       <h1>Postal App</h1>
+       <em>Sua mercadoria mais perto de você...</em>
+       </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <input 
+          type="text" 
+          id="js-zipCode"
+          placeholder="Insira seu cep" 
+          class="form-control" 
+          pattern="\d{5}-?\d{3}" 
+          maxlength="9">
+      </div>
+      <div class="col-md-4">
+        <button 
+          class="btn btn-primary"
+          id="buttonPesquisa">Buscar agora</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Localização:</h2>
+    </div>
+  </div>
+
+  <div class="col-md-12">
+    <table class="table table-hover table-striped">
+      <thead>
+        <tr>
+        <th>#</th>
+        <th>Nome</th>
+        <th>Rua</th>
+        <th>Bairro</th>
+        <th>Complemento</th>
+        <th>Cidade</th>
+        <th>Estado</th>
+        <th>Cep</th>
+        <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>#</th>
+          <th>Alexandre Salvador</th>
+          <th>Rua Guia Martins</th>
+          <th>Vila Nova</th>
+          <th>---</th>
+          <th>Joinville</th>
+          <th>SC</th>
+          <th>89218-918</th>
+          <th>
+            <button class="btn btn-warning">Editar</button>
+            <button class="btn btn-danger">Remover</button>
+          </th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+
+<script src="assets/app.js"></script>
+</body>
+</html>
